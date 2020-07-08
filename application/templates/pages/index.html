@@ -5,15 +5,13 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <h1>Welcome to my Homepage!</h1>
-
                 {% if session['username'] %}
                     <h3>Let's get started.</h3>
                 {% else %}
                     <p>Already registered? <a href="{{url_for('login') }}">Login</a></p>
                 {% endif %}
-
                 <div class="well">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
 
             </div>
