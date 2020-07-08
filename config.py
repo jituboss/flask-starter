@@ -6,7 +6,7 @@ class Config(object):
     SENTRY_DSN = os.environ.get('SENTRY_DSN')
   
     MONGODB_SETTINGS = { 
-        'db' : 'UTA_Enrollment' 
+        'db' : os.environ.get('MONGODB_DATABASE_NAME')
     }
 
 

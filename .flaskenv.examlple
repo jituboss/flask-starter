@@ -1,0 +1,9 @@
+# Flask environemts
+FLASK_ENV=development
+FLASK_APP=main.py
+
+# Application environemts
+APPLICATION_SECRET=abracadabra
+
+# MongoDB Setup
+MONGODB_DATABASE_NAME=mymongo
