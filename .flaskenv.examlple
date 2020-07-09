@@ -1,6 +1,7 @@
 # Flask environemts
 FLASK_ENV=development
 FLASK_APP=main.py
+FLASK_RUN_PORT=5000
 
 # Application environemts
 APPLICATION_SECRET=abracadabra
