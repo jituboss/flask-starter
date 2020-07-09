@@ -1,5 +1,5 @@
 # Flask Starter
-## A quick start template for your Python Flask web applications
+## A quick start template for your Python web applications
 
 Flask Starter is prepared for you to start your web development in less than 10 minutes. All you need is to clone this project and start developing!
 
